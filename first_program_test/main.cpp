@@ -7,8 +7,13 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    std::cout << "Enter an integer: ";
+    
+    int num {};
+    std::cin >> num;
+    
+    std::cout << "Double " << num << " is: " << num * 2 << '\n';
+    std::cout << "Triple " << num << " is: " << num * 3 << '\n';
     return 0;
 }
